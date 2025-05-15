@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VKT India Private Limited - Professional Staffing Solutions</title>
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* Sticky header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #003366;
+      color: white;
+      z-index: 9999;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .top-header {
+      background-color: #002244;
+      padding: 5px 20px;
+      font-size: 14px;
+      text-align: right;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+    }
+    .top-header span {
+      margin-left: 20px;
+      font-weight: 600;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid #0a4d8c;
+      border-bottom: 1px solid #0a4d8c;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      width: 100%;
+      max-width: 1200px;
+    }
+    nav ul li {
+      flex: 1;
+      text-align: center;
+      border-right: 1px solid #0a4d8c;
+    }
+    nav ul li:last-child {
+      border-right: none;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+      background-color: #0059b3;
+      color: #fff;
+    }
+
+    /* Main content padding to avoid hidden behind header */
+    main {
+      padding-top: 110px; /* top-header + nav combined height */
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /* Section styling */
+    section {
+      margin-bottom: 70px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgb(0 0 0 / 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+    section h2 {
+      color: #003366;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 3px solid #0059b3;
+      padding-bottom: 5px;
+    }
+    section p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    /* Animated floating image style */
+    .floating-image {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 180px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      animation: float 6s ease-in-out infinite;
+      z-index: 1;
+      user-select: none;
+      pointer-events: none;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="top-header">
+    <span>VKT India Private Limited</span> |
+    <span>Contact: +91 9876543210</span> |
+    <span>Email: contact@vktindiaprivate.com</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#welcome" class="active">Welcome</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#staffing-solutions">Staffing Solutions</a></li>
+      <li><a href="#recruitment-challenges">Recruitment Challenges</a></li>
+      <li><a href="#industry-expertise">Industry Expertise</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#training">Training</a></li>
+      <li><a href="#success-stories">Success Stories</a></li>
+      <li><a href="#csr">CSR</a></li>
+      <li><a href="#future-vision">Future Vision</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="welcome">
+    <h2>Welcome to VKT India Private Limited</h2>
+    <p>
+      Your Trusted Partner in Professional Staffing Solutions
+    </p>
+    <p>
+      In today’s dynamic business environment, the right talent is your most valuable asset. At <strong>VKT India Private Limited</strong>, we specialize in connecting exceptional professionals with companies that value growth, innovation, and culture. Our recruitment services go beyond simply filling roles; we build long-term partnerships that foster success and drive business growth.
+    </p>
+    <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Professional Team" class="floating-image" />
+  </section>
+  <section id="mission">
+    <h2>Our Mission and Core Principles</h2>
+    <p>
+      Our mission transcends traditional staffing roles. We create value by anticipating market needs and delivering the right talent at the right time. Our core principles guide everything we do:
+    </p>
+    <ul>
+      <li><strong>Client Partnership:</strong> Building long-term relationships beyond transactions.</li>
+      <li><strong>Candidate Empowerment:</strong> Helping professionals find roles where they truly thrive.</li>
+      <li><strong>Innovation in Recruitment:</strong> Adopting the latest technologies and methodologies.</li>
+      <li><strong>Quality over Quantity:</strong> Precise matches instead of volume placements.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mission Concept" class="floating-image" style="top:40px; right: 30px;" />
+  </section>
+
+  <section id="staffing-solutions">
+    <h2>In-Depth Look at Our Staffing Solutions</h2>
+    <p>
+      Our comprehensive staffing services are tailored to meet diverse business needs:
+    </p>
+    <ul>
+      <li><strong>Permanent Staffing:</strong> Meticulous candidate evaluation to ensure cultural and skill fit for long-term success.</li>
+      <li><strong>Temporary Staffing:</strong> Flexible workforce scaling during peak periods or special projects with pre-vetted candidates.</li>
+      <li><strong>Contract Staffing:</strong> Access to niche professionals for short-term project needs.</li>
+      <li><strong>Executive Search:</strong> Identifying visionary leaders and industry experts for critical leadership roles.</li>
+      <li><strong>Payroll & Compliance:</strong> Managing payroll, taxes, and labor law adherence so you can focus on core business.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Staffing Solutions" class="floating-image" style="top:50px; right: 30px;" />
+  </section>
+
+  <section id="recruitment-challenges">
+    <h2>Recruitment Challenges and How We Address Them</h2>
+    <p>
+      The hiring landscape presents many challenges, including:
+    </p>
+    <ul>
+      <li><strong>Talent Shortage:</strong> Specialized skills often outpace supply.</li>
+      <li><strong>High Attrition Rates:</strong> Retaining quality talent is as crucial as hiring them.</li>
+      <li><strong>Cultural Fit:</strong> Ensuring alignment with company values.</li>
+      <li><strong>Time Constraints:</strong> Lengthy hiring processes can cost opportunities.</li>
+      <li><strong>Cost Management:</strong> Maximizing recruitment ROI.</li>
+    </ul>
+    <p>
+      At VKT India, we implement:
+    </p>
+    <ul>
+      <li>Proactive talent pipelining and relationship building.</li>
+      <li>Retention-focused recruitment strategies.</li>
+      <li>Culture mapping with psychometric tools.</li>
+      <li>Streamlined, tech-enabled hiring processes.</li>
+      <li>Transparent and cost-effective recruitment.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Recruitment Challenges" class="floating-image" style="top:30px; right: 30px;" />
+  </section>
+  <section id="industry-expertise">
+    <h2>Industry-Specific Recruitment Expertise</h2>
+    <p>
+      Our recruiters specialize across sectors, offering deep domain knowledge and current market insights:
+    </p>
+    <ul>
+      <li><strong>Corporate Staffing:</strong> Finance, marketing, HR, and administration with strong communication and leadership skills.</li>
+      <li><strong>Industrial & Manufacturing:</strong> Skilled technicians, machine operators, safety officers, and supervisors.</li>
+      <li><strong>Retail & FMCG:</strong> Customer service reps, sales executives, and supply chain professionals.</li>
+      <li><strong>Information Technology:</strong> Developers, testers, architects, data analysts, and project managers.</li>
+      <li><strong>Healthcare:</strong> Nurses, medical technicians, lab analysts, and hospital staff.</li>
+      <li><strong>Hospitality:</strong> Chefs, front office staff, housekeeping managers, and service personnel.</li>
+      <li><strong>Logistics & Supply Chain:</strong> Drivers, warehouse supervisors, and coordinators.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Industry Expertise" class="floating-image" style="top:40px; right: 30px;" />
+  </section>
+
+  <section id="technology">
+    <h2>Technology-Driven Recruitment</h2>
+    <p>
+      We invest in innovative recruitment technologies to enhance precision, speed, and candidate experience:
+    </p>
+    <ul>
+      <li><strong>Applicant Tracking System (ATS):</strong> Organizes candidate data and automates communication.</li>
+      <li><strong>Artificial Intelligence:</strong> Screens resumes, analyzes fit, and reduces bias.</li>
+      <li><strong>Online Testing:</strong> Customized skill and psychometric tests deployed remotely.</li>
+      <li><strong>Video Interviewing:</strong> Connects global talent with local employers efficiently.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Technology" class="floating-image" style="top:50px; right: 30px;" />
+  </section>
+
+  <section id="training">
+    <h2>Candidate Development and Training Programs</h2>
+    <p>
+      Recruitment is not just filling jobs; it’s building careers. Our training initiatives include:
+    </p>
+    <ul>
+      <li><strong>Skill Enhancement Workshops:</strong> Technical skills, communication, and workplace etiquette.</li>
+      <li><strong>Career Counseling:</strong> Personalized guidance aligned with market demand.</li>
+      <li><strong>Interview Preparation:</strong> Mock interviews and resume building.</li>
+      <li><strong>Certification Support:</strong> Assistance with industry-relevant certifications.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Training Programs" class="floating-image" style="top:40px; right: 30px;" />
+  </section>
+  <section id="success-stories">
+    <h2>Success Stories & Client Testimonials</h2>
+    <p>
+      Over the years, VKT India has partnered with diverse clients—from startups to multinationals—with outstanding results:
+    </p>
+    <ul>
+      <li><strong>Leading FMCG Company:</strong> Placed 200+ retail staff nationwide, boosting store productivity by 15%.</li>
+      <li><strong>Manufacturing Unit:</strong> Supplied skilled operators for a new plant, achieving readiness ahead of schedule.</li>
+      <li><strong>IT Firm:</strong> Executed an executive search for a CTO, expanding the product line globally.</li>
+      <li><strong>Hospitality Chain:</strong> Managed staffing for hotel launches in three cities, ensuring seamless service.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Success Stories" class="floating-image" style="top:40px; right: 30px;" />
+  </section>
+
+  <section id="csr">
+    <h2>Corporate Social Responsibility (CSR) Initiatives</h2>
+    <p>
+      We believe in building a better workforce and society through:
+    </p>
+    <ul>
+      <li><strong>Skill Development for Underprivileged Youth:</strong> Free vocational training and placement drives.</li>
+      <li><strong>Women Empowerment:</strong> Promoting female employment and leadership.</li>
+      <li><strong>Sustainable Business Practices:</strong> Reducing paper use and encouraging diversity.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1532619675605-7f7b112503f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="CSR Initiatives" class="floating-image" style="top:40px; right: 30px;" />
+  </section>
+
+  <section id="future-vision">
+    <h2>The Future of Staffing with VKT India</h2>
+    <p>
+      As recruitment evolves, we are positioned to lead with innovation and integrity:
+    </p>
+    <ul>
+      <li><strong>AI-Driven Predictive Analytics:</strong> Forecast hiring needs and candidate success.</li>
+      <li><strong>Global Talent Markets:</strong> Expanding international recruitment and remote workforce management.</li>
+      <li><strong>Employee Wellbeing:</strong> Collaborating on mental health and work-life balance.</li>
+      <li><strong>Green Hiring Practices:</strong> Promoting eco-friendly workplace cultures.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Future Vision" class="floating-image" style="top:40px; right: 30px;" />
+  </section>
+
+  <section id="contact">
+    <h2>How to Connect with Us</h2>
+    <p>Let VKT India Private Limited elevate your recruitment success. Reach out for a tailored consultation:</p>
+    <ul>
+      <li><strong>Contact:</strong> +91 [Your Phone Number]</li>
+      <li><strong>Email:</strong> <a href="mailto:contact@vktindiaprivate.com">contact@vktindiaprivate.com</a></li>
+      <li><strong>Website:</strong> <a href="http://www.vktindiaprivate.com" target="_blank">www.vktindiaprivate.com</a></li>
+      <li><strong>Office Address:</strong> [Your Registered Address]</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 VKT India Private Limited. All Rights Reserved.</p>
+  </footer>
+</main>
+</body>
+</html>
